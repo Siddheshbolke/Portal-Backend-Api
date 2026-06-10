@@ -19,7 +19,7 @@ export const postJob = async (req, res) => {
       !title ||
       !description ||
       !requirements ||
-      !salary ||
+      !salary 
       !location ||
       !jobType ||
       !experience ||
