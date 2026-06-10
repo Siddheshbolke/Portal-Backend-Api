@@ -41,7 +41,7 @@ export const postJob = async (req, res) => {
       experienceLevel: experience,
       position,
       company: companyId,
-      created_by: userId,
+      created_by: userID,
     });
     res.status(201).json({
       message: "Job posted successfully.",
