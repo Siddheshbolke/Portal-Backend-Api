@@ -3,7 +3,6 @@ import express from "express";
 import authenticateToken from "../middleware/isAuthenticated.js";
 import {
   getAllCompanies,
-  getCompanyById,
   registerCompany,
   updateCompany,
 } from "../controllers/company.controller.js";
